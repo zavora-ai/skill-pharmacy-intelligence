@@ -1,12 +1,11 @@
 ---
 name: pharmacy-intelligence
 description: Orchestrate drug reference and regulatory intelligence — search FDA labels, check adverse events, find recalls, normalize drug names, get compound properties, check clinical trials, and verify global registration status. Use when looking up drug information, checking adverse events, finding recalls, normalizing drug names, researching compounds, or checking regulatory status across countries.
-version: "1.0.0"
 license: Apache-2.0
 compatibility: Requires mcp-pharmacy server connected (OpenFDA, DailyMed, RxNorm, PubChem, Health Canada, EMA, ClinicalTrials.gov — all free).
 allowed-tools: [openfda_search_labels, openfda_get_adverse_events, openfda_search_recalls, openfda_get_ndc, dailymed_search_labels, dailymed_get_label_xml, rxnorm_normalize, rxnorm_get_properties, rxnorm_get_atc_classes, pubchem_search_compound, pubchem_get_properties, health_canada_search_products, health_canada_get_product, clinicaltrials_search, clinicaltrials_get_study, ema_search_medicines, mhra_search_safety_updates, search_drug_global, get_registration_status]
-tags: [business, pharmacy, drugs, fda, regulatory, clinical-trials, safety]
 metadata:
+  category: mcp-enhancement
   author: Zavora AI
   mcp-server: mcp-pharmacy
   success-criteria:
